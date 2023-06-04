@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            background-color: #f1f1f1;
+            color: #333;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            li {
+                margin: 5px;
+            }
+
+            a {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Operaciones</h1>
+    <ul>
+        <li><a href="/verNumerosPrimos?inicio=1&fin=100">Números Primos</a></li>
+        <li><a href="/verTablaMultiplicar?numeroTabla=5">Tabla de Multiplicar</a></li>
+    </ul>
+</body>
+</html>
